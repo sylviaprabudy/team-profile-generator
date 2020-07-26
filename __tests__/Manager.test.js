@@ -17,6 +17,7 @@ test('get office number with getOfficeNumber() method', () => {
     expect(e.getOfficeNumber()).toBe(testValue);
 });
 
+// Test if the getRole() value is Manager
 test('getRole() return Manager', () => {
     const testValue = 'Manager';
     const e = new Manager('Foo', 1, 'manager@email.com', 100);
